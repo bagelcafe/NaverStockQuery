@@ -8,7 +8,7 @@ Phase 1
 naverstock.py is finding market value of the comapny in KOSPI200.
 
 Phase 2
-
+naverstock_sise.py is adding market value and stock code and company name.
 
 Phase 3
 naverstock_query.py is final source code to get the cash value from corporate code via Naver stock.
