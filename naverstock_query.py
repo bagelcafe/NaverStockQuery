@@ -86,6 +86,15 @@ for code, name, sise in kospi200_list:
 
     cash = cash.replace(",", "")
     sise = sise.replace(",", "")
+    
+    if cash =='':
+        cash = search_corp_cash(code)
+
+    print(cash)
+
+    if cash =="":
+        cash='0'
+        
     int_cash= float(cash)
     int_sise = float(sise)
 
